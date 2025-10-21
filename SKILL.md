@@ -320,9 +320,13 @@ Present findings in this format:
 ### Critical Issues (Fix These First)
 
 #### 1. Missing Move 2024 Edition
+
 **File**: `Move.toml:2`
+
 **Issue**: No edition specified in package manifest
+
 **Impact**: Cannot use modern Move features required by checklist
+
 **Fix**:
 \`\`\`toml
 [package]
@@ -333,15 +337,20 @@ edition = "2024.beta"  # Add this line
 ### Important Improvements
 
 #### 2. Legacy Module Syntax
+
 **File**: `sources/my_module.move:1-10`
+
 **Issue**: Using curly braces for module definition
+
 **Impact**: Increases indentation, outdated style
+
 **Current**:
 \`\`\`move
 module my_package::my_module {
     public struct A {}
 }
 \`\`\`
+
 **Recommended**:
 \`\`\`move
 module my_package::my_module;
@@ -375,6 +384,7 @@ After presenting findings:
 5. **Be Encouraging**: Acknowledge what's done well
 6. **Reference Source**: Link to Move Book checklist when relevant
 7. **Stay Current**: All advice based on Move 2024 Edition standards
+8. **Format Properly**: ALWAYS add blank lines between each field (File, Issue, Impact, Current, Recommended, Fix) for readability
 
 ## Example Interactions
 
