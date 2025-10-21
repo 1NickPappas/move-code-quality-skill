@@ -33,7 +33,7 @@ The skill analyzes your Move code across multiple dimensions:
 
 ```bash
 # Clone to your Claude skills directory
-git clone https://github.com/YOUR_USERNAME/move-code-quality-skill ~/.claude/skills/move-code-quality
+git clone https://github.com/1NickPappas/move-code-quality-skill ~/.claude/skills/move-code-quality
 ```
 
 ### Manual Installation
@@ -46,7 +46,7 @@ git clone https://github.com/YOUR_USERNAME/move-code-quality-skill ~/.claude/ski
 2. Clone or copy this skill to the skills directory:
    ```bash
    cd ~/.claude/skills
-   git clone https://github.com/YOUR_USERNAME/move-code-quality-skill
+   git clone https://github.com/1NickPappas/move-code-quality-skill
    ```
 
 3. Claude Code will automatically load the skill when working with Move code
@@ -91,7 +91,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for deta
 
 ## License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Resources
 
